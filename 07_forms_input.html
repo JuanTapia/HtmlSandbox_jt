@@ -8,18 +8,22 @@
 </head>
 <body>
     <form action="">
+        <!-- Text -->
         <div>
             <label for="">Name</label><br>
             <input type="text" name="name" id="name">
         </div>
+        <!-- Email -->
         <div>
             <label for="email">Email</label><br>
-            <input type="email" name="email" id="email">
+            <input type="email" name="email" id="email" placeholder="Your Email here">
         </div>
+        <!-- Textarea -->
         <div>
             <label for="Message">Message</label><br>
             <textarea name="Message" id="message" cols="50" rows="5"></textarea>
         </div>
+        <!-- Select -->
         <div>
             <label for="Gender">Gender</label><br>
             <select name="Gender" id="Gender">
@@ -28,6 +32,32 @@
                 <option value="Other">Other</option>
             </select>
         </div>
+        <!-- Number -->
+        <div>
+            <label for="age">Age</label><br>
+            <input type="number" name="age" id="age">
+        </div>
+        <!-- Date -->
+        <div>
+            <label for="birthdate">Birthdate</label><br>
+            <input type="date" name="birthdate" id="birthdate">
+        </div>
+        <!-- Radio -->
+        <div>
+            <label for="membership">Membership</label>
+            <input type="radio" name="membership" value="Simple" id="membership">   Simple         
+            <input type="radio" name="membership" value="Standered" id="membership">  Standared          
+            <input type="radio" name="membership" value="Super" id="membership">    Super        
+        </div>
+        <!-- Checkbox -->
+        <div>
+            <label for="Likes">Likes</label><br>
+            <input type="checkbox" name="Likes" value="Simple" id="Likes">   Dogs      
+            <input type="checkbox" name="Likes" value="Standered" id="Likes">  Cats          
+            <input type="checkbox" name="Likes" value="Super" id="Likes">    Birds     
+        </div> 
+        <input type="submit" value="Submit">
+        <button type="Submit">Submit</button>
     </form>
 </body>
 </html>
